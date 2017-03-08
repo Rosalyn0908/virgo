@@ -40,5 +40,11 @@
 	</body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript">
+		var canvas    = $('#main_canvas')[0];
+		var ctx       = canvas.getContext("2d");
+		ctx.beginPath();
+		ctx.moveTo(0,0);
+		ctx.lineTo(300,150);
+		ctx.stroke();
 	</script>
 </html>
